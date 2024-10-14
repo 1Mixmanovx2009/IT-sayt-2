@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biz bilan bog'lanish</title>
+    <link rel="stylesheet" href="./style.css">
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="E.V.O Academy Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Bosh sahifa</a></li>
+                <li><a href="about.html">Academiya haqida</a></li>
+                <li><a href="courses.html">Kurslar</a></li>
+                <li><a href="contact.html">Biz bilan bog'lanish</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Biz bilan bog'lanish</h1>
+        <p>Telefon: +998 (95) 444 20 80</p>
+        <p>Email: E.V.OAcademy@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>Biz bilan bog'laning: +998 (95) 444 20 80 | E.V.OAcademy@gmail.com</p>
+        <div class="social-media">
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="telegram.png" alt="Telegram"></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

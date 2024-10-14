@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.V.O Academy</title>
+    <link rel="stylesheet" href="./style.css">
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+</head>
+
+<body>
+    <header class="flex w-[100%] items-center mt-[0] fixed top-0">
+        <a href="/" class="logo flex items-center">
+            <img src="./image-removebg-preview (1).png" alt="E.V.O Academy Logo">
+            <p class="text-[40px] leading-[-10]">E.V.O Academy</p>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Bosh sahifa</a></li>
+                <li><a href="about.html">Academiya haqida</a></li>
+                <li><a href="courses.html">Kurslar</a></li>
+                <li><a href="contact.html">Biz bilan bog'lanish</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero flex mt-[100px] fixed z-[-1] top-0 left-0 right-0 bottom -0">
+        <div class="w-[50%] flex flex-col items-center ml-[]">
+            <img class="mt-[50px]" src="./logo.png" alt="" >
+            <div>
+                <p class="text-center text-[100px] font-bold">E.V.O Academy</p>
+                <p class="text-center text-[90px] font-normal">EVOLUTION IT ACADEMY</p>
+            </div>
+        </div>
+        <div class=" flex flex-col mt-[100px] ml-[70px]">
+            <h1>EVOLUTION ACADEMY</h1>
+            <p>Ta'lim va rivojlanish uchun zamonaviy platforma!</p>
+            <a href="./about.html" class="cta-btn">Ko'proq ma'lumot olish</a>
+        </div>
+    </section>
+
+    <section class="reviews mt-[650px]">
+        <h2>Academiya haqida sharhlar</h2>
+        <div class="review">
+            <p>"Evolution Academy – ko'plab foydali bilimlar berdi. Menga yoqdi!" - Pavel Petrov</p>
+        </div>
+        <div class="review">
+            <p>"Professional ta'lim va yoqimli atmosfera. Kurslar juda qiziqarli." - holmeova</p>
+        </div>
+    </section>
+
+    <section class="offer">
+        <h2>Chegirmali taklif</h2>
+        <p>Bugungi kunda barcha kurslarga 20% chegirma! Faqat 24 soat davomida!</p>
+        <div class="countdown">
+            <span>02</span>:<span>34</span>:<span>51</span>
+        </div>
+        <a href="#" class="cta-btn">Ro'yxatdan o'tish</a>
+    </section>
+
+    <footer>
+        <a href="tel:+998954442080" target="_blank" style="color: inherit">+998 (95) 444 20 80</a>
+        <div class="social-media"><a href="mailto:xojixoji422@gmail.com" target="_blank" style="color: inherit"><img
+                    src="./gmail.svg" alt="gmail">Электронная почта</a>
+            <a href="https://www.instagram.com/evoacademy001/"><img src="./instagram.svg" alt="Instagram"></a>
+            <a href="https://t.me/ItUniversity_global"><img src="./telegram.svg" alt="Telegram"></a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
